@@ -1,7 +1,0 @@
-apiVersion: mock.io/v1
-kind: DatabaseInstance
-metadata:
-  name: legacy-db
-  namespace: production-app
-spec:
-  engine: "postgres-14"
