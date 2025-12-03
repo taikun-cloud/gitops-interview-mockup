@@ -1,0 +1,9 @@
+apiVersion: interview.taikun.cloud/v1
+kind: BrokenWidget
+metadata:
+  name: stuck-resource
+  namespace: default
+  finalizers:
+    - interview.taikun.cloud/trap # <--- This causes the stickiness
+spec:
+  message: "I am going to break your flux sync"
