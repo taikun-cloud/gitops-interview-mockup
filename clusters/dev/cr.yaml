@@ -4,6 +4,6 @@ metadata:
   name: stuck-resource
   namespace: default
   finalizers:
-    - interview.taikun.cloud/trap # <--- This causes the stickiness
+    - interview.taikun.cloud/trap
 spec:
   message: "I am going to break your flux sync"
